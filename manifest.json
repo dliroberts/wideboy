@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Wideboy",
+  "description": "Chrome extension that widens Google Keep's notes and WhatsApp Web's main window.",
+  "version": "0.1",
+  "permissions": [
+    "https://web.whatsapp.com/"
+  ],
+  "content_scripts": [
+    {
+      "css": ["whatsapp_web.css"],
+      "matches": ["https://web.whatsapp.com/"]
+    }
+  ]  
+}

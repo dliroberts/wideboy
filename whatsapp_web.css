@@ -1,0 +1,9 @@
+/* Main window */
+div.app.two {
+  width: 96vw;
+}
+
+/* The chat window and intro page */
+div#main, div.pane.pane-intro {
+  width: 100%;
+}
