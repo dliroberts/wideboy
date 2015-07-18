@@ -4,12 +4,17 @@
   "description": "Chrome extension that widens Google Keep's notes and WhatsApp Web's main window.",
   "version": "0.1",
   "permissions": [
-    "https://web.whatsapp.com/"
+    "https://web.whatsapp.com/",
+    "https://keep.google.com/*"
   ],
   "content_scripts": [
     {
       "css": ["whatsapp_web.css"],
       "matches": ["https://web.whatsapp.com/"]
+    },
+    {
+      "css": ["google_keep.css"],
+      "matches": ["https://keep.google.com/*"]
     }
   ]  
 }

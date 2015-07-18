@@ -1,0 +1,7 @@
+body > div:nth-child(10) {
+  left: auto !important;
+}
+
+body > div:nth-child(10) > div {
+  width: 96vw !important;
+}
